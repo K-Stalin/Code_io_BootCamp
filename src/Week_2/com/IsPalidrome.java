@@ -4,6 +4,7 @@ public class IsPalidrome {
     public static  void main(String[] args)
     {
         int n    = 1221;
+        if(n < 0) System.out.println("Not palindrome");
         int temp = n;
         int res  = 0;
         while(n>0)
