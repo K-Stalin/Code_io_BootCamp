@@ -1,5 +1,6 @@
 package Week_2.com;
 
+
 public class ReverseNum {
     public  static  void  main(String[] args)
     {
@@ -12,6 +13,6 @@ public class ReverseNum {
             res*=10;
             n/=10;
         }
-        System.out.println(res/10);
+
     }
 }
